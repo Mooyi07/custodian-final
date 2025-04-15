@@ -2,7 +2,6 @@
 require_once '../config/config.php';
 require_once '../config/backup_config.php';
 require_once '../config/conn.php';
-require_once '../includes/header.php';
 require_once '../includes/sidebar.php';
 
 // Initialize backup history

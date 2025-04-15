@@ -56,10 +56,10 @@
 <body>
     <div class="d-flex vh-100 no-print">
         <div class="sidebar p-3 d-flex flex-column">
-            <!-- <a href="../index.php" class="btn text-start mb-3 w-100">
+            <a href="../index.php" class="btn text-start mb-3 w-100">
                 <i class="fas fa-tachometer-alt me-2"></i>
                 Dashboard
-            </a> -->
+            </a>
             <a href="../stocks/academic.php" class="btn text-start mb-3 w-100">
                 <i class="fas fa-boxes me-2"></i>
                 Stock Availability

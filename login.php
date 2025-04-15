@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- Fontawesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Login - San Ramon Catholic School</title>
+    <title>Login - Invensure</title>
 
     <!-- <style>
         body {

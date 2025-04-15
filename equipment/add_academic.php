@@ -147,7 +147,7 @@ $item_unit = isset($_GET['item_unit']) ? htmlspecialchars($_GET['item_unit']) : 
                             </div>
                             <div class="col-md-6">
                                 <label for="item_qty" class="form-label fw-bold">Quantity</label>
-                                <input type="number" class="form-control" id="item_qty" name="item_qty" placeholder="Enter Quantity" required>
+                                <input type="number" class="form-control" id="item_qty" name="item_qty" min=1 placeholder="Enter Quantity" required>
                             </div>
                         </div>
                         <div class="row g-2">
