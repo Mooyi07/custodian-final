@@ -40,7 +40,7 @@ if (!isset($_SESSION['isLoggedIn'])) {
   <div class="col" style="padding:30px;">
     <h4>SCAN RESULT</h4>
      <p>Item Name: <span id="itemName"></span></p>
-     <p>Item Code: <span id="itemcode"></span></p>
+     <p>Item Code: <span id="itemCode"></span></p>
      <p>Item Brand: <span id="itemBrand"></span></p>
      <p>Date Purchase: <span id="purchase"></span></p>
      <p>Item Location: <span id="location"></span></p>
@@ -55,7 +55,8 @@ function onScanSuccess(qrCodeMessage) {
     document.getElementById('itemCode').innerHTML = list[1];
     document.getElementById('itemBrand').innerHTML = list[2];
     document.getElementById('purchase').innerHTML = list[3];
-    document.getElementById('location').innerHTML = list[4];
+    const formatted = list[4].replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    document.getElementById('location').innerHTML = formatted;
     showHint(qrCodeMessage);
 }
 function onScanError(errorMessage) {
