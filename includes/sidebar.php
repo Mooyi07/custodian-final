@@ -92,6 +92,10 @@
                 <i class="fa-regular fa-folder-closed"></i>
                 Backup
             </a>
+            <a href="../qr/" class="btn text-start mb-3 w-100">
+                <i class="fa-regular fa-qrcode"></i>
+                QR Scan
+            </a>
             <div class="mt-auto">
                 <a href="../logout.php" class="btn text-start w-100">
                     <i class="fas fa-sign-out-alt me-2"></i> Logout
